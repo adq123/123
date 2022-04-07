@@ -1,14 +1,14 @@
 # 123
 room for students 
-def sort(nums):
-  for i in range(len(nums)-1,0,-1):
+def sort(numbers):
+  for i in range(len(numbers)-1,0,-1):
     for j in range(i):
-      if nums[j]>nums[j+1]:
-         temp = nums[j]
-         nums[j] = nums[j+1]
-         nums[j+1] = temp
+      if numbers[j]>numbers[j+1]:
+         temp = numbers[j]
+         numbers[j] = numbers[j+1]
+         numbers[j+1] = temp
 
 
-nums = [5, 3, 8, 6, 7, 2]
-sort(nums)
-print(nums)
+numbers = [5, 3, 8, 6, 7, 2]
+sort(numbers)
+print(numbers)
